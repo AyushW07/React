@@ -1,0 +1,23 @@
+.App {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.product-card {
+    background-color: darksalmon;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.button {
+    background-color: lightsalmon;
+    font-size: 20px;
+    border-radius: 5px;
+}
