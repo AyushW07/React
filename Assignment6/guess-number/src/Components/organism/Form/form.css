@@ -1,0 +1,29 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button{
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    font-weight: 600;
+    background-color: chartreuse;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.input{
+    width:auto;
+    height: 30px;
+    padding-left: 10px;
+    border-color:chartreuse;
+}
+
+h1{
+    font-style: italic;   
+    font-family:monospace; 
+}
