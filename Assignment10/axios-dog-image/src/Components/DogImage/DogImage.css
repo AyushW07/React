@@ -1,0 +1,24 @@
+.image{
+    height: 400px;
+    width: 400px;
+}
+
+.button{
+    height: 40px;
+    width: 80px;
+    background-color: brown;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+h1{
+    color: chartreuse;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+*{
+    background-color:chocolate;
+}
