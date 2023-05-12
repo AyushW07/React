@@ -1,0 +1,29 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .todo-item .completed {
+    text-decoration: line-through;
+  }
+  
+  .complete-btn {
+    margin-right: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
