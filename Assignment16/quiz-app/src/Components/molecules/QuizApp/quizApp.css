@@ -1,0 +1,46 @@
+.quiz-container{
+    width: 30%;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+h2{
+    color:crimson;
+    padding: 1.5rem;
+}
+
+h3{
+    color:blueviolet;
+}
+
+h2, h3, h4{
+    margin-top: 0;
+}
+
+.options{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    margin-bottom: 1rem;
+}
+
+.button{
+    background-color: chartreuse;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: limegreen;
+}
+
+p{
+    margin-top: 10px;
+}
