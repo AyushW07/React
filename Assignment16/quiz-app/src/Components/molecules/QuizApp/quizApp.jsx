@@ -8,13 +8,12 @@ export default function QuizApp() {
   const [score, setScore] = useState(0);
   const [isQuizCompleted, setIsQuizCompleted] = useState(false);
   const [isTimerFinished, setIsTimerFinished] = useState(false);
-  const [timeRemaining, setTimeRemaining] = useState(10 * 60);
+  const [timeRemaining, setTimeRemaining] = useState(1 * 60);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setTimeRemaining((prevTime) => prevTime - 1);
     }, 1000);
-    return () => clearInterval(interval);
   }, []);
 
   useEffect(() => {
@@ -54,7 +53,7 @@ export default function QuizApp() {
     setScore(0);
     setIsQuizCompleted(false);
     setIsTimerFinished(false);
-    setTimeRemaining(10 * 60);
+    setTimeRemaining(1 * 60);
   };
 
   if (isQuizCompleted) {

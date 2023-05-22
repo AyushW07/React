@@ -31,12 +31,7 @@ export const Questions = [
   },
   {
     question: "What is the highest-rated film on IMDb as of January 1st, 2022?",
-    options: [
-      "Batman",
-      "Godfather",
-      "Forrest Gump",
-      "The Shawshank Redemption",
-    ],
+    options: ["Batman", "Godfather", "Forrest Gump", "The Shawshank Redemption"],
     correctanswer: "The Shawshank Redemption",
   },
   {
