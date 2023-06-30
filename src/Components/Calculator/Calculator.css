@@ -42,6 +42,12 @@ button {
   margin-bottom: 10px;
 }
 
+.deletebtn {
+  color: white;
+  font-weight: 600;
+  background-color: red;
+}
+
 .result {
   font-size: 24px;
   color: crimson;

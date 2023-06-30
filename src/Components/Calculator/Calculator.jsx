@@ -26,9 +26,17 @@ function Calculator() {
     setResult(`Result ${quotient}`);
   };
 
+  const handleDelete = () => {
+    setNumber1("");
+    setNumber2("");
+    setResult("");
+  };
+
   return (
     <div className="calculator">
-      <h1>Calculator</h1>
+      <h1>
+        <u>Calculator</u>
+      </h1>
       <input
         type="number"
         value={number1}
@@ -48,6 +56,9 @@ function Calculator() {
         <button onClick={handleSubtraction}>-</button>
         <button onClick={handleMultiplication}>*</button>
         <button onClick={handleDivision}>/</button>
+        <button onClick={handleDelete} className="deletebtn">
+          Delete
+        </button>
       </div>
       <h2 className="result">{result}</h2>
     </div>
